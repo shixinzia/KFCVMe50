@@ -27,7 +27,7 @@ object KFCVMe50 : Plugin() {
                 // 如果当前是星期四
                 if (date.day == 4) {
                     // 伟大的KFC之神进行提示
-                    logger.log(Level.SEVERE, config.getString("messages.default", "java.lang.KFCException: KFC Fucking Crazy Thursday!!"))
+                    logger.log(Level.SEVERE, config.getString("messages.default", "java.lang.shixinziaException: shixinzia need money!!"))
                 }
             }
         }.runTaskTimerAsynchronously(plugin, config.getLong("period", 20L), config.getLong("period", 20L))
